@@ -1,0 +1,7 @@
+Orange (medium),b,67
+Bread slice,b,80
+Peanut butter,b,175
+Jelly,b,155
+Jam,b,155
+
+PB&J Sandwich,r,Bread slice,Bread slice,Peanut butter,Jelly

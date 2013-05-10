@@ -1,0 +1,113 @@
+4010-350 Process & Reflection
+Ruby -- Diet Manager
+
+Name: Jesse Jurman
+
+================================================================
+Level 1 -- Food DB Load -- Start
+Estimated Time	01 30
+Plan for this level:
+    
+    Create Food Database
+    Write Unit Tests for Recipe and Basic Food
+    Generate Code for tests
+    Write Unit Tests for FoodDB and ICL
+    Generate Code for tests
+    Rinse and Repeat
+
+Level 1 -- Food DB Load -- Complete
+Actual Time	04 00
+Lessons learned, problems encountered, obstacles overcome, etc.
+
+    Almost everything is testable, but I spent a lot more time
+    fiddling around with StringIO then I probably needed to.
+    I probably should have implemented print as a subfunction
+    for printall, but all n' all, everything works.
+
+================================================================
+Level 2 -- Print & Find -- Start
+Estimated Time	00 45
+Plan for this level:
+    
+    Write Unit Tests for print name and find prefix
+    Generate Code to for tests
+    Rinse and Repeat
+
+Level 2  -- Print & Find -- Complete
+Actual Time	01 15
+Lessons learned, problems encountered, obstacles overcome, etc.
+    
+    Needed more foods in my database, which was a bit annoying,
+    but they're there now, so that's that. Also needed to rework
+    all of the functions to get parameters, but I didn't need
+    to remove the lambda functions, so that's good. The input
+    output stuff is working great, and prefect for the automated
+    tests... Still need to go about checking if the actual output
+    matches the tests.
+
+================================================================
+Level 3 -- Database Update -- Start
+Estimated Time	01 15
+Plan for this level:
+
+    Write Unit tests for new
+    Generate code to make tests pass
+    Write Unit tests for save
+    Generate code to make tests pass
+    Write Unit tests for quit
+    Generate code to make tests pass
+
+Level 3 -- Database Update  -- Complete
+Actual Time	04 15
+Lessons learned, problems encountered, obstacles overcome, etc.
+
+    Spent much longer on refactoring then intended
+
+================================================================
+Level 4 -- Logging Foods -- Start
+Estimated Time	02 00
+Plan for this level:
+
+    Write Unit tests for LogItems
+    Generate code to make tests pass
+    Write Unit tests for Log
+    Generate code to make tests pass
+    Write Unit tests for Log-ICL integration
+    Generate code to make tests pass
+    Write Unit tests for Log-File integration
+    Generate code to make tests pass
+
+Level 4 -- Logging Foods -- Complete
+Actual Time	02 15
+Lessons learned, problems encountered, obstacles overcome, etc.
+
+    No problems, but I accidently implemented level 5 stuff, because
+    testing otherwise is almost impossible
+
+================================================================
+Level 5 -- Show & Delete -- Start
+Estimated Time	00 15
+Plan for this level:
+
+    Write Unit tests for Delete
+    Generate code to make tests pass
+
+Level 5 -- Show & Delete -- Complete
+Actual Time	00 20
+Lessons learned, problems encountered, obstacles overcome, etc.
+
+    Defining == was a bit obnoxious, but it works
+
+================================================================
+Overall Summary
+Estimated Total Time	05 45
+Actual Total Time	12 05
+Project reflection:
+    
+    Didn't expect some parts to be as difficult as others. I
+    spent a large portion of time refactoring, but going about
+    it in a TDD style helped a large part in refactoring, and
+    minimized the need to go to the actual prompt. In retrospect
+    I wish I had become familiar with a debugger as writing a stack
+    trace and going through it by hand was esspecial obnoxious with
+    the unit tests.
